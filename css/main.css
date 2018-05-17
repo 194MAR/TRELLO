@@ -1,0 +1,210 @@
+body{
+  background-color: #0079bf;
+  margin: 0%;
+}
+
+nav{
+  background-color: #0067a3;
+  width: 100%;
+}
+
+.content{
+  display: inline-block;
+  width: 33%;
+}
+
+#logo{
+  display: inline-block;
+  width: 33%;
+}
+
+#logo img{
+  width: 20%;
+  opacity: 0.5;
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  left: 30%;
+  top: 5px;
+  cursor: pointer;
+
+}
+
+#logo > img:hover{
+  background-color: white;
+  opacity: 0.5;
+}
+
+.iconos{
+  display: inline-block;
+  width: 33%;
+  cursor: pointer; 
+}
+
+.iconos > p{
+  display: inline-block;
+  position: relative;
+  left: 75%;
+
+  background-color:#4e97c1;
+  margin: 1px;
+  padding: 7px;
+  border-radius: 5px;
+  color: white;
+}
+
+.iconos > p:hover{
+  background-color: white;
+  opacity: 0.7;
+
+   
+}
+
+.content button{
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  opacity: 0.9;
+  background-color: #4d95be;
+}
+
+.content button:hover{
+  background-color: white;
+
+}
+
+.content input{
+  background-color: #4d95be;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+
+}
+
+.content .fa-search{
+ position: relative;
+ left: -25px;
+ transform: rotateY(180deg);
+ color:white;
+ cursor: pointer;
+}
+
+.top-buttons .tablero{
+  background-color:#0079bf;
+  border: none;
+  font-style: italic;
+  padding-left: 6px;
+  color:white;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  line-height: 30px;
+  opacity: .9;
+}
+.top-buttons .estrellita{
+  background-color:#0079bf;
+  border: none;
+  color: white;
+  padding: 5px;
+  background-clip:content-box;
+  position: relative; 
+  cursor: pointer; 
+  font-size: 12px;
+}
+.top-buttons .personal{
+  background-color:#0079bf;
+  border: none;
+  color: white;
+  padding: 5px;
+  background-clip:content-box;
+  position: relative; 
+  cursor: pointer; 
+  font-size: 14px;
+}
+
+.top-buttons .privado{
+  background-color:#0079bf;
+  border: none;
+  color: white;
+  position: relative; 
+  cursor: pointer; 
+  font-size: 14px;
+  font-style: normal;
+
+}
+.top-buttons .menu{
+  position: relative;
+  left: 67%;
+  background-color: #0079bf;
+  border: none;
+  color: white;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.center .add-list{
+  background-color:white;
+  border: none;
+  cursor: pointer;
+  width: 88%;
+  border-radius: 4%;
+  height: 30px;
+  color: black;
+  font-size: 14px;
+  opacity: 2.4;
+  margin-bottom: 30%;
+
+}
+
+.greySquare  .button-guardar{
+  background-color: #5aac44;
+  width: 69px;
+  height: 25px;
+  border-radius: 5%;
+  border: none;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  font-style: normal;
+}
+
+#agregar-lista{
+  cursor: pointer;
+  background-color: #0067a3;
+  border-radius: 5%;
+  border:none;
+  color: white;
+  padding: 8px;
+  position: relative;
+  top: -47px;
+}
+
+.colum{
+  width: 13%;
+  height: 80px;      
+  float: left;
+  border: none;
+  border-radius: 7%; 
+}
+
+.greySquare{
+  background-color: #afacac;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  border-radius: 7%;
+  left: 40%;
+}
+
+#button2{
+  cursor: pointer;
+  background-color: #e2e4e6;
+  border: none;
+  border-radius: 7%;
+}
+
+#cardColum{
+  background-color: #afacac;
+}
