@@ -26,3 +26,14 @@ function newList(){
     var cardColum = document.getElementById("cardColum");
     cardColum.style.display="block";
 }
+var newCardButton = document.getElementById("newCardButton");
+newCardButton.addEventListener("click",showContet);
+function showContet(){
+    newCardButton.style.display="none";
+    var addCardForm= document.getElementById("cuadroGris2")
+    addCardForm.style.display="block";
+    
+
+
+
+}
