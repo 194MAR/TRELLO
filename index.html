@@ -33,19 +33,21 @@
     </div>
 
     <section class="colum" id="cardColum" style="display: none">
-      <input id="listTitle" type="text" placeholder="" > </input>
-      <button id="newCardButton"  value="Guardar">Añadir tarjeta...</button>
-      <div id="cuadroGris2" class="greysSquare" style="display: none;">
+      <div class="listContainer">
+        <input id="listTitle" class="listTitle" type="text" placeholder="" > </input>
+        <div id="card" style="display: none"></div>
+        <button id="newCardButton"  value="Guardar">Añadir tarjeta...</button>
+        <div id="cuadroGris2" class="greysSquare" style="display: none;">
           <input type="text" id="cardsValue" />
-          <button id="saveCardButton" > Guardar</button>
-          
+          <button id="saveCardButton" class="button-guardar"> Guardar</button>          
+        </div>
       </div>
     </section>
      
     <section class="colum">
       <div id="cuadro-gris" class="greySquare" style="visibility: hidden;">
         <input id="newListInput"class="add-list" type="text" placeholder="Añadir lista..."></input>
-        <button id="saveButton"class="button-guardar" > Guardar </button>
+        <button id="saveButton" class="button-guardar" > Guardar </button>
       </div>
       <div id="anadir-lista" style="visibility: visible">
           <button id="agregar-lista">Añadir una lista...</button>
